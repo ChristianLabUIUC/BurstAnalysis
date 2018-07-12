@@ -1,9 +1,5 @@
 # BurstAnalysis
-Use this code to:
-construct ISI scatter plot and histogram of ISI values
-identify optimal burst ISI threshold
-identify which neurons are bursting neurons
-evaluate bursting neurons for detailed burst properties
+Use this code to construct ISI scatter plot and histogram of ISI values, identify optimal burst ISI threshold, identify which neurons are bursting neurons, and evaluate bursting neurons for detailed burst properties.
 
 Run PlotBursts to see the culmulative distribution of burst duration, # of spikes in the burst, firing rate in the burst, and interburst intervals.
 
