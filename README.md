@@ -1,8 +1,14 @@
 # BurstAnalysis
-Identify burst activities by neuron spike train. Use ISI scatter plot and histogram to determine if a neuron is a bursting neuron. Only keep the burst neuron for further analysis.
+Use this code to:
+construct ISI scatter plot and histogram of ISI values
+identify optimal burst ISI threshold
+identify which neurons are bursting neurons
+evaluate bursting neurons for detailed burst properties
 
 Run PlotBursts to see the culmulative distribution of burst duration, # of spikes in the burst, firing rate in the burst, and interburst intervals.
 
 Function findbursts and bursts are called by PlotBursts.
 
-Example spike time data come from targeted extracellular recording of gonadotropin-releasing hormone neurons from diestrous and estrous mouse.
+Example spike time data come from targeted extracellular recordings of gonadotropin-releasing hormone neurons from diestrous and estrous mice
+
+Developed by Jiang Li and Mark Nelson
