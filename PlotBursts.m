@@ -26,7 +26,7 @@
 dest_dir = 'data/diestrus';
 [DBurst, allDBurst]=bursts(dest_dir);
 
-dest_dir = 'data/estrus';
+dest_dir = 'data/test';
 [EBurst, allEBurst]=bursts(dest_dir);
 
 

@@ -20,6 +20,10 @@ function [bursts] = findbursts(stimes, cut)
     endindex = 1+endFlag;
     startFlag = find(burstFlag==-1);
     startindex = 1+startFlag;
+    % if the first startindex is less than the first endindex, then the
+    % burst actually start with the first action potential. Add the index 2
+    % to the begining of the startindex (index 1 is a just a marker for the begining of the recording)
+    startindex = [2 startindex];
     
     % if the stime end up with a burst, the last endindex will not be
     % detected. Add the index of the last element in the stimes to be the

@@ -44,6 +44,7 @@ function [burstInfo, allBursts] = bursts(dest_dir)
         disp(name)
         
         stimes = data.stimes;
+        stimes = [1; stimes];
         stimes = stimes.';
 
         %note the firing rate for every neuron
