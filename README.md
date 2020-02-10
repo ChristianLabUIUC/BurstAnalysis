@@ -5,6 +5,8 @@ Run PlotBursts to see the cumulative distribution of burst duration, # of spikes
 
 Functions findbursts and bursts are called by PlotBursts.
 
+Input data file should be in .mat format with the time of each action potential in a column.
+
 Example spike time data come from targeted extracellular recordings of gonadotropin-releasing hormone neurons from diestrous and estrous mice
 
 Developed by Jiang Li and Mark Nelson
